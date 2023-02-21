@@ -1,3 +1,4 @@
+import 'loki/configure-react-native';
 const rootMain = require('../../../.storybook/main');
 
 module.exports = {
