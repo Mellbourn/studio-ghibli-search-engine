@@ -16,7 +16,9 @@
     "mobile-web": "nx serve studio-ghibli-search-engine-mobile-web",
     "start": "nx serve",
     "test": "nx test",
-    "web": "npm run start"
+    "web": "npm run start",
+    "loki:update": "loki update --react-native-port 8081",
+    "loki:test": "loki test --react-native-port 8081"
   },
   "dependencies": {
     "@emotion/react": "11.10.0",
@@ -142,7 +144,7 @@
   },
   "loki": {
     "configurations": {
-      "ios.iphone7": {
+      "ios.iphone13": {
         "target": "ios.simulator"
       }
     }

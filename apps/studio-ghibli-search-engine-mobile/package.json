@@ -37,6 +37,14 @@
     "metro-babel-register": "*",
     "redux-thunk": "*",
     "metro-config": "*",
-    "connected-react-router": "*"
+    "connected-react-router": "*",
+    "loki": "*"
+  },
+  "loki": {
+    "configurations": {
+      "ios.iphone13": {
+        "target": "ios.simulator"
+      }
+    }
   }
 }
