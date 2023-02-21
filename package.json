@@ -111,6 +111,7 @@
     "jest-environment-jsdom": "28.1.1",
     "jest-react-native": "18.0.0",
     "lodash": "^4.17.21",
+    "loki": "^0.31.0",
     "metro": "0.73.3",
     "metro-babel-register": "0.73.3",
     "metro-react-native-babel-preset": "0.73.3",
